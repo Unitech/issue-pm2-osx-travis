@@ -36,4 +36,4 @@ script:
   - if [ $TRAVIS_NODE_VERSION == "4" ]; then export CXX=g++-4.8; fi
   - npm config set spin false
   - npm install
-  - node_modules/.bin/pm2 ls
+  - DEBUG="*" node_modules/.bin/pm2 ls
