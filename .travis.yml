@@ -37,4 +37,4 @@ script:
   - npm config set spin false
   - npm install
   - node_modules/.bin/pm2 kill
-  - node_modules/.bin/pm2 start
+  - node_modules/.bin/pm2 ping
